@@ -3,7 +3,7 @@ import IQueue from "./IQueue";
  * 队列遵循先进先出的原则，一端进入，另一端出
  */
 class Queue<T> implements IQueue<T> {
-  private queue: T[] = [];
+  protected queue: T[] = [];
   /**
    * 入队
    * @param element
